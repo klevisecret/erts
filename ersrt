@@ -167,7 +167,7 @@ N&euml; fjal&euml;n e tij p&euml;rpara qytetar&euml;ve t&euml; C&euml;rrikut &eu
 <div id="fb-root"></div>
 <script src="http://connect.facebook.net/en_US/all.js"></script>
 <script>
-  FB.init({
+	FB.init({
 	  appId: '394283357334923',
 	  cookie: true,
 	  xfbml: true,
@@ -294,19 +294,7 @@ Sipas Berishës, Rama ndjek rrugën e etërve të tij, ndërsa shtoi se përsër
 Shtuar m&euml; 02/06/2013,
 ora 21:41
 </div><div class="body" style="font-weight:bold;">Tage: <a href="http://www.albeu.com/kerko.php?fraza=interesonte" target="_blank">interesonte</a> <a href="http://www.albeu.com/kerko.php?fraza=shqiptar" target="_blank">shqiptar</a> <a href="http://www.albeu.com/kerko.php?fraza=shqiptari" target="_blank">shqiptari</a> <a href="http://www.albeu.com/kerko.php?fraza=cilit" target="_blank">cilit</a> <a href="http://www.albeu.com/kerko.php?fraza=investime" target="_blank">investime</a> </div>
-<div id="reklame_lajm" vis="1" style="width:300px; height:250px; float:left; background:#eee;">
-<script type="text/javascript"><!--
-google_ad_client = "ca-pub-5014580076533432";
-/* newsly300x250lajm */
-google_ad_slot = "6796899273";
-google_ad_width = 300;
-google_ad_height = 250;
-google_page_url = "http://newsle.org/category/technology/";
-//-->
-</script>
-<script type="text/javascript" src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
-</script>
-</div> </div>
+</div>
 <style type="text/css">.k_single{width:100%;float:left;}.k_single .k_autor{width:96%;padding:0 2% 2px 2%;height:20px;line-height:20px;float:left;font-size:15px;font-weight:bold;color:#55a;padding:0 2% 2px 2%;margin-bottom:2px;border-bottom:1px solid #ddd;}.k_single .k_data{width:96%;height:16px;line-height:16px;font-size:11px;color:#777;float:left;padding:0 2%;margin-bottom:10px;}.k_single .k_text{width:96%;min-height:18px;line-height:18px;font-size:14px;color:#333;float:left;padding:0 2%;margin-bottom:20px;}.k_single .fshi_komentin{width:25px;height:12px;line-height:12px;padding:3px 5px;float:right;font-size:10px;font-weight:normal;font-style:italic;text-align:center;margin:1px 0 0 0;background:#c00;background:-moz-linear-gradient(top,#d55,#c11);background:-webkit-gradient(linear,0% 0%,0% 100%,from(#d55),to(#c11));color:#fff;cursor:pointer;-moz-border-radius:3px;-webkit-border-radius:3px;border-radius:3px;-webkit-box-shadow:0 0 5px #777;-moz-box-shadow:0 0 5px #777;box-shadow:0 0 5px #777;overflow:hidden;}.k_single .fshi_komentin:hover{background:#d33;background:-moz-linear-gradient(top,#c55,b11);background:-webkit-gradient(linear,0% 0%,0% 100%,from(#c55),to(#b11));}.k_single .fshi_komentin:active{background:#ccc;-webkit-box-shadow:inset 0 0 7px #777;-moz-box-shadow:inset 0 0 7px #777;box-shadow:inset 0 0 7px #777;color:#111;}</style>
 <div id="kom_form" class="body">
 <div class="head">Shkruani komentin tuaj!</div>
@@ -560,7 +548,7 @@ Spahiu kërkon ndryshimin: 23 vite u qeverisëm nga horrat
    if ((typeof(document.MAX_ct0) != 'undefined') && (document.MAX_ct0.substring(0,4) == 'http')) {
        document.write ("&amp;ct0=" + escape(document.MAX_ct0));
    }
-   if (document.mmm_fo) document.write ("&amp;mm</scr1");
+   if (document.mmm_fo) document.write ("&amp;mmm_fo=1");
    document.write ("'></scr"+"ipt>");
 //]]>--></script>
 </div> </div>
