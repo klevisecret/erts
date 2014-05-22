@@ -26,9 +26,13 @@
 <link rel="alternate" type="application/rss+xml" title="Ora News &raquo; Comments Feed" href="http://www.oranews.tv/comments/feed/" />
 <link rel='stylesheet' id='nextgen_gallery_related_images-css'  href='http://www.oranews.tv/wp-content/plugins/nextgen-gallery/products/photocrati_nextgen/modules/nextgen_gallery_display/static/nextgen_gallery_related_images.css?ver=3.9.1' type='text/css' media='all' />
 <link rel='stylesheet' id='jetpack-subscriptions-css'  href='http://www.oranews.tv/wp-content/plugins/jetpack/modules/subscriptions/subscriptions.css?ver=3.9.1' type='text/css' media='all' />
+<link rel='stylesheet' id='open-sans-css'  href='//fonts.googleapis.com/css?family=Open+Sans%3A300italic%2C400italic%2C600italic%2C300%2C400%2C600&#038;subset=latin%2Clatin-ext&#038;ver=3.9.1' type='text/css' media='all' />
+<link rel='stylesheet' id='dashicons-css'  href='http://www.oranews.tv/wp-includes/css/dashicons.min.css?ver=3.9.1' type='text/css' media='all' />
+<link rel='stylesheet' id='admin-bar-css'  href='http://www.oranews.tv/wp-includes/css/admin-bar.min.css?ver=3.9.1' type='text/css' media='all' />
 <link rel='stylesheet' id='contact-form-7-css'  href='http://www.oranews.tv/wp-content/plugins/contact-form-7/includes/css/styles.css?ver=3.8.1' type='text/css' media='all' />
 <link rel='stylesheet' id='wp-polls-css'  href='http://www.oranews.tv/wp-content/plugins/wp-polls/polls-css.css?ver=2.63' type='text/css' media='all' />
 <link rel='stylesheet' id='jetpack-widgets-css'  href='http://www.oranews.tv/wp-content/plugins/jetpack/modules/widgets/widgets.css?ver=20121003' type='text/css' media='all' />
+<link rel='stylesheet' id='popular-widget-css'  href='http://www.oranews.tv/wp-content/plugins/popular-widget/_css/pop-widget.css?ver=1.6.6' type='text/css' media='all' />
 <script type='text/javascript'>
 /* <![CDATA[ */
 var photocrati_ajax = {"url":"http:\/\/www.oranews.tv\/photocrati_ajax","wp_site_url":"http:\/\/www.oranews.tv","wp_site_static_url":"http:\/\/www.oranews.tv"};
@@ -43,7 +47,7 @@ var photocrati_ajax = {"url":"http:\/\/www.oranews.tv\/photocrati_ajax","wp_site
 <script type='text/javascript' src='http://www.oranews.tv/wp-content/plugins/nextgen-gallery/products/photocrati_nextgen/modules/lightbox/static/lightbox_context.js?ver=3.9.1'></script>
 <script type='text/javascript'>
 /* <![CDATA[ */
-var samAjax = {"ajaxurl":"http:\/\/www.oranews.tv\/wp-content\/plugins\/simple-ads-manager\/sam-ajax.php","loadurl":"http:\/\/www.oranews.tv\/wp-content\/plugins\/simple-ads-manager\/sam-ajax-loader.php","load":"","level":"3","clauses":"YTo0OntzOjI6IldDIjtzOjE3ODoiKElGKHNhLmFkX3VzZXJzID0gMCwgVFJVRSwgKHNhLmFkX3VzZXJzX3VucmVnID0gMSkpKSBBTkQgKChzYS52aWV3X3R5cGUgPSAxKSBPUiAoc2Eudmlld190eXBlID0gMCBBTkQgKHNhLnZpZXdfcGFnZXMrMCAmIDEpKSkgQU5EIChzYS5hZF9jYXRzID0gMCkgIEFORCAoc2EuYWRfYXV0aG9ycyA9IDApICAgICAgICI7czozOiJXQ1QiO3M6Mzg4OiIgQU5EIElGKHNhLmFkX3NjaGVkdWxlLCBDVVJEQVRFKCkgQkVUV0VFTiBzYS5hZF9zdGFydF9kYXRlIEFORCBzYS5hZF9lbmRfZGF0ZSwgVFJVRSkgQU5EIElGKHNhLmxpbWl0X2hpdHMsIHNhLmhpdHNfbGltaXQgPiAoU0VMRUNUIElGTlVMTChDT1VOVCgqKSwgMCkgRlJPTSB3cF9vMXIyYW40ZTl3N3Nfc2FtX3N0YXRzIHNzIFdIRVJFIHNzLmlkID0gc2EuaWQgQU5EIHNzLmV2ZW50X3R5cGUgPSAwKSwgVFJVRSkgQU5EIElGKHNhLmxpbWl0X2NsaWNrcywgc2EuY2xpY2tzX2xpbWl0ID4gKFNFTEVDVCBJRk5VTEwoQ09VTlQoKiksIDApIEZST00gd3BfbzFyMmFuNGU5dzdzX3NhbV9zdGF0cyBzcyBXSEVSRSBzcy5pZCA9IHNhLmlkIEFORCBzcy5ldmVudF90eXBlID0gMSksIFRSVUUpIjtzOjM6IldDVyI7czo4MDoiIEFORCBJRihzYS5hZF93ZWlnaHQgPiAwLCAoc2EuYWRfd2VpZ2h0X2hpdHMqMTAvKHNhLmFkX3dlaWdodCoxMDAwKSkgPCAxLCBGQUxTRSkiO3M6NDoiV0MyVyI7czoyMjoiQU5EIChzYS5hZF93ZWlnaHQgPiAwKSI7fQ=="};
+var samAjax = {"ajaxurl":"http:\/\/www.oranews.tv\/wp-content\/plugins\/simple-ads-manager\/sam-ajax.php","loadurl":"http:\/\/www.oranews.tv\/wp-content\/plugins\/simple-ads-manager\/sam-ajax-loader.php","load":"","level":"3","clauses":"YTo0OntzOjI6IldDIjtzOjMyOToiKElGKHNhLmFkX3VzZXJzID0gMCwgVFJVRSwgSUYoc2EuYWRfdXNlcnNfcmVnID0gMSwgSUYoc2EueF9hZF91c2VycyA9IDEsIE5PVCBGSU5EX0lOX1NFVCgia2xldmlfbWFza2EiLCBzYS54X3ZpZXdfdXNlcnMpLCBUUlVFKSBBTkQgSUYoc2EuYWRfdXNlcnNfYWR2ID0gMSwgKHNhLmFkdl9uaWNrIDw+ICJrbGV2aV9tYXNrYSIpLCBUUlVFKSwgRkFMU0UpKSkgQU5EICgoc2Eudmlld190eXBlID0gMSkgT1IgKHNhLnZpZXdfdHlwZSA9IDAgQU5EIChzYS52aWV3X3BhZ2VzKzAgJiAxKSkpIEFORCAoc2EuYWRfY2F0cyA9IDApICBBTkQgKHNhLmFkX2F1dGhvcnMgPSAwKSAgICAgICAiO3M6MzoiV0NUIjtzOjM4ODoiIEFORCBJRihzYS5hZF9zY2hlZHVsZSwgQ1VSREFURSgpIEJFVFdFRU4gc2EuYWRfc3RhcnRfZGF0ZSBBTkQgc2EuYWRfZW5kX2RhdGUsIFRSVUUpIEFORCBJRihzYS5saW1pdF9oaXRzLCBzYS5oaXRzX2xpbWl0ID4gKFNFTEVDVCBJRk5VTEwoQ09VTlQoKiksIDApIEZST00gd3BfbzFyMmFuNGU5dzdzX3NhbV9zdGF0cyBzcyBXSEVSRSBzcy5pZCA9IHNhLmlkIEFORCBzcy5ldmVudF90eXBlID0gMCksIFRSVUUpIEFORCBJRihzYS5saW1pdF9jbGlja3MsIHNhLmNsaWNrc19saW1pdCA+IChTRUxFQ1QgSUZOVUxMKENPVU5UKCopLCAwKSBGUk9NIHdwX28xcjJhbjRlOXc3c19zYW1fc3RhdHMgc3MgV0hFUkUgc3MuaWQgPSBzYS5pZCBBTkQgc3MuZXZlbnRfdHlwZSA9IDEpLCBUUlVFKSI7czozOiJXQ1ciO3M6ODA6IiBBTkQgSUYoc2EuYWRfd2VpZ2h0ID4gMCwgKHNhLmFkX3dlaWdodF9oaXRzKjEwLyhzYS5hZF93ZWlnaHQqMTAwMCkpIDwgMSwgRkFMU0UpIjtzOjQ6IldDMlciO3M6MjI6IkFORCAoc2EuYWRfd2VpZ2h0ID4gMCkiO30="};
 /* ]]> */
 </script>
 <script type='text/javascript' src='http://www.oranews.tv/wp-content/plugins/simple-ads-manager/js/sam-layout.min.js?ver=2.2.80'></script>
@@ -65,7 +69,16 @@ var samAjax = {"ajaxurl":"http:\/\/www.oranews.tv\/wp-content\/plugins\/simple-a
 	border: 1px solid #c8c8c8;
 }
 </style>
-<style type='text/css'>img#wpstats{display:none}</style>
+<style type='text/css'>img#wpstats{display:none}</style><style type="text/css" media="print">#wpadminbar { display:none; }</style>
+<style type="text/css" media="screen">
+	html { margin-top: 32px !important; }
+	* html body { margin-top: 32px !important; }
+	@media screen and ( max-width: 782px ) {
+		html { margin-top: 46px !important; }
+		* html body { margin-top: 46px !important; }
+	}
+</style>
+
 <!-- Jetpack Open Graph Tags -->
 <meta property="og:type" content="website" />
 <meta property="og:title" content="Ora News" />
@@ -74,6 +87,37 @@ var samAjax = {"ajaxurl":"http:\/\/www.oranews.tv\/wp-content\/plugins\/simple-a
 <meta property="og:site_name" content="Ora News" />
 <meta property="og:image" content="http://wordpress.com/i/blank.jpg" />
 <meta name="twitter:site" content="@jetpack" />
+
+<style type='text/css'>
+#wpadminbar .quicklinks li#wp-admin-bar-stats {
+	height: 28px;
+}
+#wpadminbar .quicklinks li#wp-admin-bar-stats a {
+	height: 28px;
+	padding: 0;
+}
+#wpadminbar .quicklinks li#wp-admin-bar-stats a div {
+	height: 28px;
+	width: 95px;
+	overflow: hidden;
+	margin: 0 10px;
+}
+#wpadminbar .quicklinks li#wp-admin-bar-stats a:hover div {
+	width: auto;
+	margin: 0 8px 0 10px;
+}
+#wpadminbar .quicklinks li#wp-admin-bar-stats a img {
+	height: 24px;
+	padding: 2px 0;
+	max-width: none;
+	border: none;
+}
+</style>
+<script type="text/javascript">
+/* <![CDATA[ */
+	var wpNotesIsJetpackClient = true;
+/* ]]> */
+</script>
 	<script type="Text/Javascript" src="http://www.oranews.tv/wp-content/themes/oranews/js/jquery.min.js"></script>
 	<script type="Text/Javascript" src="http://www.oranews.tv/wp-content/themes/oranews/js/jquery.easing.1.3.js"></script>
 	<script type="Text/Javascript" src="http://www.oranews.tv/wp-content/themes/oranews/js/jquery.bxSlider.min.js"></script>
@@ -99,7 +143,7 @@ function showLocalTime(container, servermode, offsetMinutes, displayversion){
 if (!document.getElementById || !document.getElementById(container)) return
 this.container=document.getElementById(container)
 this.displayversion=displayversion
-var servertimestring=(servermode=="server-php")? 'May 22, 2014 19:51:06' : (servermode=="server-ssi")? '<!--#config timefmt="%B %d, %Y %H:%M:%S"--><!--#echo var="DATE_LOCAL" -->' : '<%= Now() %>'
+var servertimestring=(servermode=="server-php")? 'May 22, 2014 20:09:15' : (servermode=="server-ssi")? '<!--#config timefmt="%B %d, %Y %H:%M:%S"--><!--#echo var="DATE_LOCAL" -->' : '<%= Now() %>'
 this.localtime=this.serverdate=new Date(servertimestring)
 this.localtime.setTime(this.serverdate.getTime()+offsetMinutes*60*1000) //add user offset to server time
 this.updateTime()
@@ -310,16 +354,18 @@ return (num<=9)? "0"+num : num//if this is minute or sec field
   js.src = "//connect.facebook.net/en_US/all.js#xfbml=1&appId=226960557514422";
   fjs.parentNode.insertBefore(js, fjs);
 }(document, 'script', 'facebook-jssdk'));</script>
+<link rel='stylesheet' id='wpcom-notes-admin-bar-css'  href='http://s0.wp.com/wp-content/mu-plugins/notes/admin-bar-v2.css?ver=2.9.3-201421' type='text/css' media='all' />
+<link rel='stylesheet' id='noticons-css'  href='http://s0.wp.com/i/noticons/noticons.css?ver=2.9.3-201421' type='text/css' media='all' />
 </head>
 
-<body class="home blog">
+<body class="home blog logged-in admin-bar no-customize-support">
 
 	<header>
 		<div id="header">
 			<div class="center">
 							<div id="header-top"></div><!-- #header-top-->
 				<div id="weather">
-22/05/14 Përditësuar: 21:50				</div><!-- #weather-->
+22/05/14 Përditësuar: 21:56				</div><!-- #weather-->
 				
 				<div id="logo">
 					<a href="/"><img alt="Ora News Logo" src="http://www.oranews.tv/wp-content/uploads/2014/01/oranews1-1.png" /></a>
@@ -339,7 +385,7 @@ return (num<=9)? "0"+num : num//if this is minute or sec field
 				<div class="center">
 					<div id="menu">
 						<nav>
-							<div class="menu-main-container"><ul id="menu-main" class="menu"><li id="menu-item-345" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-345"><a href="http://oranews.tv/">Home</a></li>
+							<div class="menu-main-container"><ul id="menu-main" class="menu"><li id="menu-item-345" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-345">a href="http://oranews.tv/">Home</a></li>
 <li id="menu-item-262" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-262"><a href="http://www.oranews.tv/category/vendi/">Vendi</a></li>
 <li id="menu-item-261" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-261"><a href="http://www.oranews.tv/category/sport/">Sport</a></li>
 <li id="menu-item-259" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-259"><a href="http://www.oranews.tv/category/rajoni/">Rajoni</a></li>
@@ -401,21 +447,8 @@ s.src = 'http://' + disqus_shortname + '.disqus.com/count.js';
 		<a style="float:right;" href="http://www.oranews.tv/vendi/prokuroria-nis-hetimet-per-akuzat-e-perfshirjes-se-fa-ne-trafik-droge/#disqus_thread"></a></div>
 		</div>
 		        <div id="mid-ad" class="shadow">
-			<div id='c6517_10_6' class='sam-container sam-place' data-sam='1'><a  id='a94_10' class='sam_ad' href='http://www.turkishairlines.com/' target='_blank' ><img src='http://www.oranews.tv/wp-content/plugins/sam-images/turkish-400.jpg'  alt=''  /></a></div>		</div>
+			<div id='c5717_10_6' class='sam-container sam-place' data-sam='1'><a  id='a68_10' class='sam_ad' href='http://www.turkishairlines.com/' target='_blank' ><img src='http://www.oranews.tv/wp-content/plugins/sam-images/turkish-400.jpg'  alt=''  /></a></div>		</div>
 			<div id="lajme-bllok-item-vogel">
-			<div id="lajme-bllok-item-title-vogel"><a href="http://www.oranews.tv/vendi/kuvend-diskutohet-kerkesa-e-opozites-per-komision-hetimor-per-trafikun-e-droges/">Rama-Opozitës: Jeni “tap-topi”, Berisha: Tahiri mban një skaf në Vlorë</a>
-											
-			</div>
-			<a href="http://www.oranews.tv/vendi/kuvend-diskutohet-kerkesa-e-opozites-per-komision-hetimor-per-trafikun-e-droges/"><img width="411" height="226" src="data:image/gif;base64,R0lGODdhAQABAPAAAP///wAAACwAAAAAAQABAEACAkQBADs=" data-lazy-type="image" data-lazy-src="http://www.oranews.tv/wp-content/uploads/2014/05/rama-berisha1-411x226.jpg" class="lazy lazy-hidden attachment-lajmet-thumb wp-post-image" /><noscript><img width="411" height="226" src="http://www.oranews.tv/wp-content/uploads/2014/05/rama-berisha1-411x226.jpg" class="attachment-lajmet-thumb wp-post-image" /></noscript></a>
-				<div id="lajmi-bllok-item-vogel-pershkrimi">				Kryeministri Rama në fjalën e mbajtur para Kuvendit e quan opozitën “tap-topi”. Ai u shpreh se kjo është një pakicë e llastuar që nuk e dëgjon askush. </div>
-				<div id="top-news-title-linku-posht">				</div>
-		<div id="social-media-vogel">
-		<span class="st_facebook" st_url="http://www.oranews.tv/vendi/kuvend-diskutohet-kerkesa-e-opozites-per-komision-hetimor-per-trafikun-e-droges/"></span>
-		<span class="st_twitter" st_url="http://www.oranews.tv/vendi/kuvend-diskutohet-kerkesa-e-opozites-per-komision-hetimor-per-trafikun-e-droges/"></span>
-		<span class="st_plusone" st_url="http://www.oranews.tv/vendi/kuvend-diskutohet-kerkesa-e-opozites-per-komision-hetimor-per-trafikun-e-droges/" ></span>
-		<a style="float:right;" href="http://www.oranews.tv/vendi/kuvend-diskutohet-kerkesa-e-opozites-per-komision-hetimor-per-trafikun-e-droges/#disqus_thread"></a></div>
-		</div>
-				<div id="lajme-bllok-item-vogel">
 			<div id="lajme-bllok-item-title-vogel"><a href="http://www.oranews.tv/vendi/rama-takon-ish-te-perndekurin-politik-qe-tentoi-te-vetedigjet-ora-news-zbardh-biseden/">Rama: Çfarë halli ke? Ish i përndjekuri: Dua punë mbi 15 mijë lekë rrogë</a>
 								- <a class="linkvideo" href="http://www.oranews.tv/videogaleri/rama-takon-ish-te-perndjekurin-politik-qe-tentoi-te-vetedigjet-ora-news-zbardh-biseden/">Video</a>			
 			</div>
@@ -427,6 +460,19 @@ s.src = 'http://' + disqus_shortname + '.disqus.com/count.js';
 		<span class="st_twitter" st_url="http://www.oranews.tv/vendi/rama-takon-ish-te-perndekurin-politik-qe-tentoi-te-vetedigjet-ora-news-zbardh-biseden/"></span>
 		<span class="st_plusone" st_url="http://www.oranews.tv/vendi/rama-takon-ish-te-perndekurin-politik-qe-tentoi-te-vetedigjet-ora-news-zbardh-biseden/" ></span>
 		<a style="float:right;" href="http://www.oranews.tv/vendi/rama-takon-ish-te-perndekurin-politik-qe-tentoi-te-vetedigjet-ora-news-zbardh-biseden/#disqus_thread"></a></div>
+		</div>
+				<div id="lajme-bllok-item-vogel">
+			<div id="lajme-bllok-item-title-vogel"><a href="http://www.oranews.tv/vendi/fier-apeli-ne-ora-news-sjelle-ndihme-ekonomike-per-familjen-bracaj/">Fier, pas apelit në  “Ora News” ndihmohet familja Braçaj</a>
+								- <a class="linkvideo" href="http://www.oranews.tv/videogaleri/fier-pas-apelit-ne-ora-news-ndihmohet-familja-bracaj/">Video</a>			
+			</div>
+			<a href="http://www.oranews.tv/vendi/fier-apeli-ne-ora-news-sjelle-ndihme-ekonomike-per-familjen-bracaj/"><img width="411" height="226" src="data:image/gif;base64,R0lGODdhAQABAPAAAP///wAAACwAAAAAAQABAEACAkQBADs=" data-lazy-type="image" data-lazy-src="http://www.oranews.tv/wp-content/uploads/2014/05/fier1-411x226.jpg" class="lazy lazy-hidden attachment-lajmet-thumb wp-post-image" /><noscript><img width="411" height="226" src="http://www.oranews.tv/wp-content/uploads/2014/05/fier1-411x226.jpg" class="attachment-lajmet-thumb wp-post-image" /></noscript></a>
+				<div id="lajmi-bllok-item-vogel-pershkrimi">				Tre femijët e familjes Braçaj do të kenë mundësi të paktën për disa kohë të plotesojnë nevojat e tyre ekonomike.  Kontribues të ndryshëm i janë përgjigjur apelit për ndihmë pas kronikës së transmetuar në radio televizionin "Ora News".  </div>
+				<div id="top-news-title-linku-posht">				<li><a href="http://www.oranews.tv/vendi/fier-nga-deshperimi-kercenoi-se-do-vriste-femijet-bashkia-i-premton-ta-punesoje/" target="_blank">Fier, nga dëshpërimi kërcënoi se do vriste fëmijët, Bashkia i premton ta punësojë</a></li> 				<li><a href="http://www.oranews.tv/vendi/deshperimi-i-nje-te-papuni-shteti-te-me-gjeje-pune-per-buken-e-3-femijeve-ose-do-i-vras/" target="_blank">Dëshpërimi i një të papuni: Shteti të më gjejë punë për bukën e 3 fëmijëve, ose do i vras</a></li> 				</div>
+		<div id="social-media-vogel">
+		<span class="st_facebook" st_url="http://www.oranews.tv/vendi/fier-apeli-ne-ora-news-sjelle-ndihme-ekonomike-per-familjen-bracaj/"></span>
+		<span class="st_twitter" st_url="http://www.oranews.tv/vendi/fier-apeli-ne-ora-news-sjelle-ndihme-ekonomike-per-familjen-bracaj/"></span>
+		<span class="st_plusone" st_url="http://www.oranews.tv/vendi/fier-apeli-ne-ora-news-sjelle-ndihme-ekonomike-per-familjen-bracaj/" ></span>
+		<a style="float:right;" href="http://www.oranews.tv/vendi/fier-apeli-ne-ora-news-sjelle-ndihme-ekonomike-per-familjen-bracaj/#disqus_thread"></a></div>
 		</div>
 				<div id="lajme-bllok-item-vogel">
 			<div id="lajme-bllok-item-title-vogel"><a href="http://www.oranews.tv/vendi/te-larguarit-nga-administrata-ne-greve-urie-pritet-te-ngrene-cadren-afer-kryeministrise/">14 të larguar nga puna në grevë, njëri shfaq shenja dobësie. Basha takon grevistët</a>
@@ -468,19 +514,6 @@ s.src = 'http://' + disqus_shortname + '.disqus.com/count.js';
 		<a style="float:right;" href="http://www.oranews.tv/vendi/spiropali-per-mallrat-e-konfiskuar-pronwsia-intelektuale-tw-mbrohet-100/#disqus_thread"></a></div>
 		</div>
 				<div id="lajme-bllok-item-vogel">
-			<div id="lajme-bllok-item-title-vogel"><a href="http://www.oranews.tv/vendi/korce-zihen-per-klientet-taksisti-plumba-makines-se-konkurentit/">Korçë, zihen për klientët, taksisti plumba makinës së konkurentit</a>
-											
-			</div>
-			<a href="http://www.oranews.tv/vendi/korce-zihen-per-klientet-taksisti-plumba-makines-se-konkurentit/"><img width="337" height="226" src="data:image/gif;base64,R0lGODdhAQABAPAAAP///wAAACwAAAAAAQABAEACAkQBADs=" data-lazy-type="image" data-lazy-src="http://www.oranews.tv/wp-content/uploads/2014/05/policia.png" class="lazy lazy-hidden attachment-lajmet-thumb wp-post-image" /><noscript><img width="337" height="226" src="http://www.oranews.tv/wp-content/uploads/2014/05/policia.png" class="attachment-lajmet-thumb wp-post-image" /></noscript></a>
-				<div id="lajmi-bllok-item-vogel-pershkrimi">				Zihen për klientët, taksisti qëllon me kallashnikov makinën e konkurentit. </div>
-				<div id="top-news-title-linku-posht">				</div>
-		<div id="social-media-vogel">
-		<span class="st_facebook" st_url="http://www.oranews.tv/vendi/korce-zihen-per-klientet-taksisti-plumba-makines-se-konkurentit/"></span>
-		<span class="st_twitter" st_url="http://www.oranews.tv/vendi/korce-zihen-per-klientet-taksisti-plumba-makines-se-konkurentit/"></span>
-		<span class="st_plusone" st_url="http://www.oranews.tv/vendi/korce-zihen-per-klientet-taksisti-plumba-makines-se-konkurentit/" ></span>
-		<a style="float:right;" href="http://www.oranews.tv/vendi/korce-zihen-per-klientet-taksisti-plumba-makines-se-konkurentit/#disqus_thread"></a></div>
-		</div>
-				<div id="lajme-bllok-item-vogel">
 			<div id="lajme-bllok-item-title-vogel"><a href="http://www.oranews.tv/vendi/ecin-mes-baltes-per-ne-shkolle-realiteti-i-trishte-i-nxenesve-ne-baterr-te-vogel-te-matit/">Ecin mes baltës për në shkollë, realiteti i trishtë i nxënësve 3 km larg Burrelit</a>
 				<a class="linkfoto" href="http://www.oranews.tv/fotogaleri/ecin-mes-baltes-per-ne-shkolle-realiteti-i-trishte-i-nxenesve-ne-baterr-te-vogel-te-matit/">Foto</a>				- <a class="linkvideo" href="http://www.oranews.tv/videogaleri/ecin-mes-baltes-per-ne-shkolle-realiteti-i-trishte-i-nxenesve-3-km-larg-burrelit/">Video</a>			
 			</div>
@@ -492,6 +525,19 @@ s.src = 'http://' + disqus_shortname + '.disqus.com/count.js';
 		<span class="st_twitter" st_url="http://www.oranews.tv/vendi/ecin-mes-baltes-per-ne-shkolle-realiteti-i-trishte-i-nxenesve-ne-baterr-te-vogel-te-matit/"></span>
 		<span class="st_plusone" st_url="http://www.oranews.tv/vendi/ecin-mes-baltes-per-ne-shkolle-realiteti-i-trishte-i-nxenesve-ne-baterr-te-vogel-te-matit/" ></span>
 		<a style="float:right;" href="http://www.oranews.tv/vendi/ecin-mes-baltes-per-ne-shkolle-realiteti-i-trishte-i-nxenesve-ne-baterr-te-vogel-te-matit/#disqus_thread"></a></div>
+		</div>
+				<div id="lajme-bllok-item-vogel">
+			<div id="lajme-bllok-item-title-vogel"><a href="http://www.oranews.tv/vendi/korce-zihen-per-klientet-taksisti-plumba-makines-se-konkurentit/">Korçë, zihen për klientët, taksisti plumba makinës së konkurentit</a>
+											
+			</div>
+			<a href="http://www.oranews.tv/vendi/korce-zihen-per-klientet-taksisti-plumba-makines-se-konkurentit/"><img width="337" height="226" src="data:image/gif;base64,R0lGODdhAQABAPAAAP///wAAACwAAAAAAQABAEACAkQBADs=" data-lazy-type="image" data-lazy-src="http://www.oranews.tv/wp-content/uploads/2014/05/policia.png" class="lazy lazy-hidden attachment-lajmet-thumb wp-post-image" /><noscript><img width="337" height="226" src="http://www.oranews.tv/wp-content/uploads/2014/05/policia.png" class="attachment-lajmet-thumb wp-post-image" /></noscript></a>
+				<div id="lajmi-bllok-item-vogel-pershkrimi">				Zihen për klientët, taksisti qëllon me kallashnikov makinën e konkurentit. </div>
+				<div id="top-news-title-linku-posht">				</div>
+		<div id="social-media-vogel">
+		<span class="st_facebook" st_url="http://www.oranews.tv/vendi/korce-zihen-per-klientet-taksisti-plumba-makines-se-konkurentit/"></span>
+		<span class="st_twitter" st_url="http://www.oranews.tv/vendi/korce-zihen-per-klientet-taksisti-plumba-makines-se-konkurentit/"></span>
+		<span class="st_plusone" st_url="http://www.oranews.tv/vendi/korce-zihen-per-klientet-taksisti-plumba-makines-se-konkurentit/" ></span>
+		<a style="float:right;" href="http://www.oranews.tv/vendi/korce-zihen-per-klientet-taksisti-plumba-makines-se-konkurentit/#disqus_thread"></a></div>
 		</div>
 				<div id="lajme-bllok-item-vogel">
 			<div id="lajme-bllok-item-title-vogel"><a href="http://www.oranews.tv/vendi/shkoder-nderhyjne-ne-ujesjelles-rrezikojne-shperthim-dhe-shkaterrim-projektit-1-9-mln-euro/">Shkodër, ndërhyjnë në Ujësjellës, rrezikojnë  shpërthim dhe shkatërrimin e projektit 1.9 mln euro</a>
@@ -559,19 +605,6 @@ s.src = 'http://' + disqus_shortname + '.disqus.com/count.js';
 		<a style="float:right;" href="http://www.oranews.tv/vendi/nishani-profesionistet-te-mos-stepen-nga-kritikat-demotivuese/#disqus_thread"></a></div>
 		</div>
 				<div id="lajme-bllok-item-vogel">
-			<div id="lajme-bllok-item-title-vogel"><a href="http://www.oranews.tv/ekonomi/financat-pergatisin-draftligjin-e-ri-per-lojrat-e-fatit/">Financat përgatisin draftligjin e ri për lojrat e fatit</a>
-											
-			</div>
-			<a href="http://www.oranews.tv/ekonomi/financat-pergatisin-draftligjin-e-ri-per-lojrat-e-fatit/"><img width="325" height="226" src="data:image/gif;base64,R0lGODdhAQABAPAAAP///wAAACwAAAAAAQABAEACAkQBADs=" data-lazy-type="image" data-lazy-src="http://www.oranews.tv/wp-content/uploads/2013/10/Kazino-446x310.jpg" class="lazy lazy-hidden attachment-lajmet-thumb wp-post-image" /><noscript><img width="325" height="226" src="http://www.oranews.tv/wp-content/uploads/2013/10/Kazino-446x310.jpg" class="attachment-lajmet-thumb wp-post-image" /></noscript></a>
-				<div id="lajmi-bllok-item-vogel-pershkrimi">				 Ministria e Financave ka gati një draftligj të ri, i cili përcakton një sërë masash shtrënguese për të kufizuar lojrat e fatit. </div>
-				<div id="top-news-title-linku-posht">				</div>
-		<div id="social-media-vogel">
-		<span class="st_facebook" st_url="http://www.oranews.tv/ekonomi/financat-pergatisin-draftligjin-e-ri-per-lojrat-e-fatit/"></span>
-		<span class="st_twitter" st_url="http://www.oranews.tv/ekonomi/financat-pergatisin-draftligjin-e-ri-per-lojrat-e-fatit/"></span>
-		<span class="st_plusone" st_url="http://www.oranews.tv/ekonomi/financat-pergatisin-draftligjin-e-ri-per-lojrat-e-fatit/" ></span>
-		<a style="float:right;" href="http://www.oranews.tv/ekonomi/financat-pergatisin-draftligjin-e-ri-per-lojrat-e-fatit/#disqus_thread"></a></div>
-		</div>
-				<div id="lajme-bllok-item-vogel">
 			<div id="lajme-bllok-item-title-vogel"><a href="http://www.oranews.tv/vendi/burgu-i-spacit-po-shkaterrohet-ish-vuajtesit-kerkojne-kthimin-e-tij-ne-nje-muze/">Burgu i Spaçit po shkatërrohet ish-vuajtësit kërkojnë kthimin e tij në një muze</a>
 				<a class="linkfoto" href="http://www.oranews.tv/fotogaleri/burgu-i-spacit-po-shkaterrohet-ish-vuajtesit-kerkojne-kthimin-e-tij-ne-nje-muze-2/">Foto</a>				- <a class="linkvideo" href="http://www.oranews.tv/videogaleri/burgu-i-spacit-po-shkaterrohet-ish-vuajtesit-kerkojne-kthimin-e-tij-ne-nje-muze/">Video</a>			
 			</div>
@@ -583,6 +616,19 @@ s.src = 'http://' + disqus_shortname + '.disqus.com/count.js';
 		<span class="st_twitter" st_url="http://www.oranews.tv/vendi/burgu-i-spacit-po-shkaterrohet-ish-vuajtesit-kerkojne-kthimin-e-tij-ne-nje-muze/"></span>
 		<span class="st_plusone" st_url="http://www.oranews.tv/vendi/burgu-i-spacit-po-shkaterrohet-ish-vuajtesit-kerkojne-kthimin-e-tij-ne-nje-muze/" ></span>
 		<a style="float:right;" href="http://www.oranews.tv/vendi/burgu-i-spacit-po-shkaterrohet-ish-vuajtesit-kerkojne-kthimin-e-tij-ne-nje-muze/#disqus_thread"></a></div>
+		</div>
+				<div id="lajme-bllok-item-vogel">
+			<div id="lajme-bllok-item-title-vogel"><a href="http://www.oranews.tv/ekonomi/financat-pergatisin-draftligjin-e-ri-per-lojrat-e-fatit/">Financat përgatisin draftligjin e ri për lojrat e fatit</a>
+											
+			</div>
+			<a href="http://www.oranews.tv/ekonomi/financat-pergatisin-draftligjin-e-ri-per-lojrat-e-fatit/"><img width="325" height="226" src="data:image/gif;base64,R0lGODdhAQABAPAAAP///wAAACwAAAAAAQABAEACAkQBADs=" data-lazy-type="image" data-lazy-src="http://www.oranews.tv/wp-content/uploads/2013/10/Kazino-446x310.jpg" class="lazy lazy-hidden attachment-lajmet-thumb wp-post-image" /><noscript><img width="325" height="226" src="http://www.oranews.tv/wp-content/uploads/2013/10/Kazino-446x310.jpg" class="attachment-lajmet-thumb wp-post-image" /></noscript></a>
+				<div id="lajmi-bllok-item-vogel-pershkrimi">				 Ministria e Financave ka gati një draftligj të ri, i cili përcakton një sërë masash shtrënguese për të kufizuar lojrat e fatit. </div>
+				<div id="top-news-title-linku-posht">				</div>
+		<div id="social-media-vogel">
+		<span class="st_facebook" st_url="http://www.oranews.tv/ekonomi/financat-pergatisin-draftligjin-e-ri-per-lojrat-e-fatit/"></span>
+		<span class="st_twitter" st_url="http://www.oranews.tv/ekonomi/financat-pergatisin-draftligjin-e-ri-per-lojrat-e-fatit/"></span>
+		<span class="st_plusone" st_url="http://www.oranews.tv/ekonomi/financat-pergatisin-draftligjin-e-ri-per-lojrat-e-fatit/" ></span>
+		<a style="float:right;" href="http://www.oranews.tv/ekonomi/financat-pergatisin-draftligjin-e-ri-per-lojrat-e-fatit/#disqus_thread"></a></div>
 		</div>
 				<div id="lajme-bllok-item-vogel">
 			<div id="lajme-bllok-item-title-vogel"><a href="http://www.oranews.tv/vendi/menaxhimi-i-mbetjeve-nga-vendoret-koka-500-mije-leke-gjobe-deri-ne-shkarkim-kush-smerr-masa/">Koka-vendorëve: Menaxhoni mbetjet, ose masa deri në shkarkim</a>
@@ -683,6 +729,18 @@ s.src = 'http://' + disqus_shortname + '.disqus.com/count.js';
 		
 	<div id="programet-mesit">
 				           	<div id="lajme-kollona-mesit-item-madhe-lajme">
+	        			<a href="http://www.oranews.tv/vendi/kuvend-diskutohet-kerkesa-e-opozites-per-komision-hetimor-per-trafikun-e-droges/"><img width="280" height="200" src="data:image/gif;base64,R0lGODdhAQABAPAAAP///wAAACwAAAAAAQABAEACAkQBADs=" data-lazy-type="image" data-lazy-src="http://www.oranews.tv/wp-content/uploads/2014/05/rama-berisha1-280x200.jpg" class="lazy lazy-hidden attachment-lajmi-thumb wp-post-image" /><noscript><img width="280" height="200" src="http://www.oranews.tv/wp-content/uploads/2014/05/rama-berisha1-280x200.jpg" class="attachment-lajmi-thumb wp-post-image" /></noscript></a>
+	        			<div id="lajme-kollona-mesit-item-title-madhe-lajme"><a href="http://www.oranews.tv/vendi/kuvend-diskutohet-kerkesa-e-opozites-per-komision-hetimor-per-trafikun-e-droges/">Rama-Opozitës: Jeni “tap-topi”, Berisha: Tahiri mban një skaf në Vlorë</a>
+																		<div id="top-news-title-linku-posht">						Kryeministri Rama në fjalën e mbajtur para Kuvendit e quan opozitën “tap-topi”. Ai u shpreh se kjo është një pakicë e llastuar që nuk e dëgjon askush. 						</div>
+						<div id="top-news-title-linku-posht-mesit">						</div>
+						</div>
+		<div id="social-media-vogel-fundit">
+		<span class="st_facebook" st_url="http://www.oranews.tv/vendi/kuvend-diskutohet-kerkesa-e-opozites-per-komision-hetimor-per-trafikun-e-droges/"></span>
+		<span class="st_twitter" st_url="http://www.oranews.tv/vendi/kuvend-diskutohet-kerkesa-e-opozites-per-komision-hetimor-per-trafikun-e-droges/"></span>
+		<span class="st_plusone" st_url="http://www.oranews.tv/vendi/kuvend-diskutohet-kerkesa-e-opozites-per-komision-hetimor-per-trafikun-e-droges/" ></span>
+		<a style="float:right;" href="http://www.oranews.tv/vendi/kuvend-diskutohet-kerkesa-e-opozites-per-komision-hetimor-per-trafikun-e-droges/#disqus_thread"></a></div>
+	        </div>
+				           	<div id="lajme-kollona-mesit-item-madhe-lajme">
 	        			<a href="http://www.oranews.tv/vendi/kapet-89-kg-kokaine-ne-ekuador-do-vinte-ne-shqiperi/"><img width="280" height="200" src="data:image/gif;base64,R0lGODdhAQABAPAAAP///wAAACwAAAAAAQABAEACAkQBADs=" data-lazy-type="image" data-lazy-src="http://www.oranews.tv/wp-content/uploads/2014/05/droga-ne-ekuador-280x200.jpg" class="lazy lazy-hidden attachment-lajmi-thumb wp-post-image" /><noscript><img width="280" height="200" src="http://www.oranews.tv/wp-content/uploads/2014/05/droga-ne-ekuador-280x200.jpg" class="attachment-lajmi-thumb wp-post-image" /></noscript></a>
 	        			<div id="lajme-kollona-mesit-item-title-madhe-lajme"><a href="http://www.oranews.tv/vendi/kapet-89-kg-kokaine-ne-ekuador-do-vinte-ne-shqiperi/">Kapet 89 kg kokainë në Ekuador, do vinte në Shqipëri</a>
 																		<div id="top-news-title-linku-posht">						89 kilogramë kokainë me destinacion Shqipërinë janë sekuestruar nga autoritetet e Ekuadorit. 						</div>
@@ -694,25 +752,13 @@ s.src = 'http://' + disqus_shortname + '.disqus.com/count.js';
 		<span class="st_plusone" st_url="http://www.oranews.tv/vendi/kapet-89-kg-kokaine-ne-ekuador-do-vinte-ne-shqiperi/" ></span>
 		<a style="float:right;" href="http://www.oranews.tv/vendi/kapet-89-kg-kokaine-ne-ekuador-do-vinte-ne-shqiperi/#disqus_thread"></a></div>
 	        </div>
-				           	<div id="lajme-kollona-mesit-item-madhe-lajme">
-	        			<a href="http://www.oranews.tv/vendi/fier-apeli-ne-ora-news-sjelle-ndihme-ekonomike-per-familjen-bracaj/"><img width="280" height="200" src="data:image/gif;base64,R0lGODdhAQABAPAAAP///wAAACwAAAAAAQABAEACAkQBADs=" data-lazy-type="image" data-lazy-src="http://www.oranews.tv/wp-content/uploads/2014/05/fier1-280x200.jpg" class="lazy lazy-hidden attachment-lajmi-thumb wp-post-image" /><noscript><img width="280" height="200" src="http://www.oranews.tv/wp-content/uploads/2014/05/fier1-280x200.jpg" class="attachment-lajmi-thumb wp-post-image" /></noscript></a>
-	        			<div id="lajme-kollona-mesit-item-title-madhe-lajme"><a href="http://www.oranews.tv/vendi/fier-apeli-ne-ora-news-sjelle-ndihme-ekonomike-per-familjen-bracaj/">Fier, pas apelit në  “Ora News” ndihmohet familja Braçaj</a>
-																		<div id="top-news-title-linku-posht">						Tre femijët e familjes Braçaj do të kenë mundësi të paktën për disa kohë të plotesojnë nevojat e tyre ekonomike.  Kontribues të ndryshëm i janë përgjigjur apelit për ndihmë pas kronikës së transmetuar në radio televizionin "Ora News".  						</div>
-						<div id="top-news-title-linku-posht-mesit">						</div>
-						</div>
-		<div id="social-media-vogel-fundit">
-		<span class="st_facebook" st_url="http://www.oranews.tv/vendi/fier-apeli-ne-ora-news-sjelle-ndihme-ekonomike-per-familjen-bracaj/"></span>
-		<span class="st_twitter" st_url="http://www.oranews.tv/vendi/fier-apeli-ne-ora-news-sjelle-ndihme-ekonomike-per-familjen-bracaj/"></span>
-		<span class="st_plusone" st_url="http://www.oranews.tv/vendi/fier-apeli-ne-ora-news-sjelle-ndihme-ekonomike-per-familjen-bracaj/" ></span>
-		<a style="float:right;" href="http://www.oranews.tv/vendi/fier-apeli-ne-ora-news-sjelle-ndihme-ekonomike-per-familjen-bracaj/#disqus_thread"></a></div>
-	        </div>
 						<div id="programet-mesit" class="cycle-slideshow" data-cycle-fx="fade" data-cycle-slides="> div" data-cycle-delay="10000" data-cycle-timeout="12000" style="height:240px;overflow: hidden">
                 <div id="sidebar-pub" data-cycle-timeout="3000">
-						<div id='c5325_13_7' class='sam-container sam-place' data-sam='1'><a  id='a29_13' class='sam_ad' href='http://www.klar.al/' target='_blank' ><img src='http://www.oranews.tv/wp-content/plugins/sam-images/segafredo.jpg'  alt=''  /></a></div>				</div>
+						<div id='c3134_13_7' class='sam-container sam-place' data-sam='1'><a  id='a52_13' class='sam_ad' href='http://www.klar.al/' target='_blank' ><img src='http://www.oranews.tv/wp-content/plugins/sam-images/segafredo.jpg'  alt=''  /></a></div>				</div>
                 <div id="sidebar-pub" data-cycle-timeout="3000">
-						<div id='c1728_14_7' class='sam-container sam-place' data-sam='1'><a  id='a97_14' class='sam_ad' href='http://kristal.edu.al/' target='_blank' ><img src='http://www.oranews.tv/wp-content/plugins/sam-images/kristal.jpg'  alt=''  /></a></div>				</div>
+						<div id='c6349_14_7' class='sam-container sam-place' data-sam='1'><a  id='a15_14' class='sam_ad' href='http://kristal.edu.al/' target='_blank' ><img src='http://www.oranews.tv/wp-content/plugins/sam-images/kristal.jpg'  alt=''  /></a></div>				</div>
                 <div id="sidebar-pub" data-cycle-timeout="3000">
-						<div id='c8724_13_7' class='sam-container sam-place' data-sam='1'><a  id='a86_13' class='sam_ad' href='http://www.klar.al/' target='_blank' ><img src='http://www.oranews.tv/wp-content/plugins/sam-images/segafredo.jpg'  alt=''  /></a></div>				</div>
+						<div id='c2426_13_7' class='sam-container sam-place' data-sam='1'><a  id='a13_13' class='sam_ad' href='http://www.klar.al/' target='_blank' ><img src='http://www.oranews.tv/wp-content/plugins/sam-images/segafredo.jpg'  alt=''  /></a></div>				</div>
 			</div>
 			<div id="ikona"><a href="/category/sport/" class="kat_sfond_sport" title="Sport">SPORT</a></div>
 				           		<div id="lajme-kollona-mesit-item-madhe-sport">
@@ -751,7 +797,7 @@ s.src = 'http://' + disqus_shortname + '.disqus.com/count.js';
 	        			<div id="lajme-kollona-mesit-item-title-madhe-showbiz"><a href="http://www.oranews.tv/showbiz/justin-bieber-ne-lidhje-me-modelen-e-victorias-secret/">
 						Justin Bieber në lidhje me modelen e Victoria&#8217;s Secret</a></div>
 	        		</div>
-						<a href='http://www.klar.al' target='_blank'><img src='http://www.oranews.tv/wp-content/plugins/sam-images/segafredo.jpg' /></a>
+						a href='http://www.klar.al' target='_blank'><img src='http://www.oranews.tv/wp-content/plugins/sam-images/segafredo.jpg' /></a>
 			<div id="programet-title-mesit-space-top"><a href="/category/lifestyle/" class="kat_sfond_lifestyle" title="Lifestyle">LIFESTYLE</a></div>
 								<div id="programet-title-mesit-space-top"></div><!-- #editor-title -->
 	           		<div id="lajme-kollona-mesit-item-madhe-lifestyle">
@@ -857,7 +903,7 @@ s.src = 'http://' + disqus_shortname + '.disqus.com/count.js';
 			</script>
 					</div><!-- #tv-->	
 				<div id="top-pub" class="shadow">
-			<div id='c6955_4_1' class='sam-container sam-place' data-sam='1'><a  id='a13_4' class='sam_ad' href='http://www.raiffeisen.al/' target='_blank' ><img src='http://www.oranews.tv/wp-content/plugins/sam-images/raiffeisen-315.gif'  alt='Raiffeisen Bank'  /></a></div>                        		</div><!-- #top-pub-->	
+			<div id='c2243_4_1' class='sam-container sam-place' data-sam='1'><a  id='a87_4' class='sam_ad' href='http://www.raiffeisen.al/' target='_blank' ><img src='http://www.oranews.tv/wp-content/plugins/sam-images/raiffeisen-315.gif'  alt='Raiffeisen Bank'  /></a></div>                        		</div><!-- #top-pub-->	
 	<div style="float:left; width: 333px; margin: 0 auto; padding:10px 0 0;">
         <ul class="tabs" data-persist="true">
             <li><a href="#shiko1">Showbiz</a></li>
@@ -901,9 +947,9 @@ s.src = 'http://' + disqus_shortname + '.disqus.com/count.js';
 	</div>
 			<div id="banner-djathtes" class="cycle-slideshow" data-cycle-fx="fade" data-cycle-slides="> div" data-cycle-delay="10000" data-cycle-timeout="12000" style="height:105px;overflow: hidden">
                 <div id="top-pub" class="shadow" data-cycle-timeout="5000">
-						<div id='c6666_15_2' class='sam-container sam-place' data-sam='1'><img src='http://www.oranews.tv/wp-content/uploads/2014/04/kastrati-325.jpg'  alt=''  /></div>				</div>
+						<div id='c9598_15_2' class='sam-container sam-place' data-sam='1'><img src='http://www.oranews.tv/wp-content/uploads/2014/04/kastrati-325.jpg'  alt=''  /></div>				</div>
                 <div id="top-pub" class="shadow" data-cycle-timeout="3000">
-						<div id='c6397_16_2' class='sam-container sam-place' data-sam='1'><a  id='a83_16' class='sam_ad' href='https://s3.amazonaws.com/com.alexa.toolbar/atbp/TJVoUe/download/index.htm' target='_blank' ><img src='http://www.oranews.tv/wp-content/plugins/sam-images/oranewstoolbar.png'  alt=''  /></a></div>				</div>
+						<div id='c7333_16_2' class='sam-container sam-place' data-sam='1'><a  id='a60_16' class='sam_ad' href='https://s3.amazonaws.com/com.alexa.toolbar/atbp/TJVoUe/download/index.htm' target='_blank' ><img src='http://www.oranews.tv/wp-content/plugins/sam-images/oranewstoolbar.png'  alt=''  /></a></div>				</div>
 			</div>
 		<div id="top-pub" class="shadow">
 			<a href="http://www.facebook.com/Ora.News.RTV"><img src="http://www.oranews.tv/wp-content/plugins/sam-images/icofb.png"></a> 		
@@ -1088,7 +1134,7 @@ s.src = 'http://' + disqus_shortname + '.disqus.com/count.js';
          	<div style="width:316px;padding:0px;margin:8px;margin-top:25px;border-top:2px solid black;">
 			<div id="polls-11" class="wp-polls">
 	<form id="polls_form_11" class="wp-polls-form" action="/index.php" method="post">
-		<p style="display: none;"><input type="hidden" id="poll_11_nonce" name="wp-polls-nonce" value="8111d2e16b" /></p>
+		<p style="display: none;"><input type="hidden" id="poll_11_nonce" name="wp-polls-nonce" value="d987500b1e" /></p>
 		<p style="display: none;"><input type="hidden" name="poll_id" value="11" /></p>
 		<p style="text-align: center;"><strong>Pas grevës së urisë së një grupi të shkarkuarish nga administrata është:</strong></p><div id="polls-11-ans" class="wp-polls-ans"><ul class="wp-polls-ul">
 		<li><input type="radio" id="poll-answer-36" name="poll_11" value="36" /> <label for="poll-answer-36">Kauza humane</label></li>
@@ -1314,18 +1360,18 @@ s.src = 'http://' + disqus_shortname + '.disqus.com/count.js';
 <section>
 	<div id="programet" style="display:none;" class="html5gallery" data-skin="vertical" data-width="462" data-height="272">
 	    
+					<a href="http://www.youtube.com/embed/slJs8aJIlJg"><img src="http://img.youtube.com/vi/slJs8aJIlJg/1.jpg" alt="Fier, pas apelit në  “Ora News” ndihmohet familja Braçaj"></a>
 					<a href="http://www.youtube.com/embed/IgXFc47IexU"><img src="http://img.youtube.com/vi/IgXFc47IexU/1.jpg" alt="Koka-vendorëve: Menaxhoni mbetjet, ose masa deri në shkarkim"></a>
 					<a href="http://www.youtube.com/embed/tompiEzhEQc"><img src="http://img.youtube.com/vi/tompiEzhEQc/1.jpg" alt="Kodheli-Opozitës: E latë Shqipërinë jashtë vëzhgimit ajror të NATO-s, fikët radarët mbi Otranto"></a>
 					<a href="http://www.youtube.com/embed/SETWHbmd0Ug"><img src="http://img.youtube.com/vi/SETWHbmd0Ug/1.jpg" alt="Shqipëria 5 qëndra urbane, Bashkitë e tjera nuk përmbushin kriteret europiane"></a>
 					<a href="http://www.youtube.com/embed/aoW2YNur0fE"><img src="http://img.youtube.com/vi/aoW2YNur0fE/1.jpg" alt="Prokuroria nis hetimet për akuzat e përfshirjes së FA në trafik droge"></a>
 					<a href="http://www.youtube.com/embed/YI6FM_TGXyQ"><img src="http://img.youtube.com/vi/YI6FM_TGXyQ/1.jpg" alt="Kamioni që ecën në mes të liqenit"></a>
-					<a href="http://www.youtube.com/embed/Lzd5pMJ438s"><img src="http://img.youtube.com/vi/Lzd5pMJ438s/1.jpg" alt="Spiropali për mallrat e konfiskuar: Pronësia intelektuale të mbrohet 100%"></a>
+					<a href="http://www.youtube.com/embed/Lzd5pMJ438s"><img src="http://img.youtube.com/vi/Lzd5pMJ438s/1.jpg" alt="Spiropali për mallrat e konfiskuar: Pronësia intelektuale të mbrohet 100%">a>
 					<a href="http://www.youtube.com/embed/Q2DdUpz-2po"><img src="http://img.youtube.com/vi/Q2DdUpz-2po/1.jpg" alt="Sistemi i drejtësisë, Nishani: Profesionistët të mos stepen nga kritikat demotivuese"></a>
 					<a href="http://www.youtube.com/embed/FDKZ0ldQrlg"><img src="http://img.youtube.com/vi/FDKZ0ldQrlg/1.jpg" alt="Banda e C4, mbeten në burg 4 ushtarakët"></a>
 					<a href="http://www.youtube.com/embed/_2WtNB3UHew"><img src="http://img.youtube.com/vi/_2WtNB3UHew/1.jpg" alt="Dorëzohen drejtuesit vendorë në kukës &#8220;nuk kemi as fonde dhe as mjete për të luftuar zjarret&#8221;"></a>
 					<a href="http://www.youtube.com/embed/T6o-LmA5oTk"><img src="http://img.youtube.com/vi/T6o-LmA5oTk/1.jpg" alt="Spitali i Laçit në gjendje të mjerueshme, mungojnë mjekët dhe infrastruktura"></a>
 					<a href="http://www.youtube.com/embed/WjW0z9xLAhw"><img src="http://img.youtube.com/vi/WjW0z9xLAhw/1.jpg" alt="Reforma territoriale, Braho- Çuçit: Pse u veçuan minoritetet?"></a>
-					<a href="http://www.youtube.com/embed/kThndIPM62Q"><img src="http://img.youtube.com/vi/kThndIPM62Q/1.jpg" alt="Hapet zyra e punës në Gjirokastër, Veliaj: Mundësi për ata që kanë dëshirë të punojnë"></a>
 		    </div>
 </section>
 
@@ -1370,7 +1416,7 @@ Te gjitha te drejtat e rezervuara!</p>				</div><!-- #footer-logo -->
 					</div><!-- #footer-links-section -->
 				</div><!-- #footer-links -->
 			
-				<div id="footer-social">
+				div id="footer-social">
 					<nav>
 						<ul>
 														    									<li>
@@ -1396,7 +1442,8 @@ Te gjitha te drejtat e rezervuara!</p>				</div><!-- #footer-logo -->
 		</div><!-- #footer -->
 	</footer>
 
-<!-- ngg_resource_manager_marker --><script type='text/javascript' src='http://www.oranews.tv/wp-content/plugins/contact-form-7/includes/js/jquery.form.min.js?ver=3.50.0-2014.02.05'></script>
+<!-- ngg_resource_manager_marker --><script type='text/javascript' src='http://www.oranews.tv/wp-includes/js/admin-bar.min.js?ver=3.9.1'></script>
+<script type='text/javascript' src='http://www.oranews.tv/wp-content/plugins/contact-form-7/includes/js/jquery.form.min.js?ver=3.50.0-2014.02.05'></script>
 <script type='text/javascript'>
 /* <![CDATA[ */
 var _wpcf7 = {"loaderUrl":"http:\/\/www.oranews.tv\/wp-content\/plugins\/contact-form-7\/images\/ajax-loader.gif","sending":"Sending ...","cached":"1"};
@@ -1410,12 +1457,20 @@ var pollsL10n = {"ajax_url":"http:\/\/www.oranews.tv\/wp-admin\/admin-ajax.php",
 </script>
 <script type='text/javascript' src='http://www.oranews.tv/wp-content/plugins/wp-polls/polls-js.js?ver=2.63'></script>
 <script type='text/javascript' src='http://s0.wp.com/wp-content/js/devicepx-jetpack.js?ver=201421'></script>
+<script type='text/javascript' src='http://www.oranews.tv/wp-content/plugins/popular-widget/_js/pop-widget.js?ver=1.6.6'></script>
 <script type='text/javascript'>
 /* <![CDATA[ */
 var BJLL = {"threshold":"800"};
 /* ]]> */
 </script>
 <script type='text/javascript' src='http://www.oranews.tv/wp-content/plugins/bj-lazy-load/js/combined.min.js?ver=0.7.1'></script>
+<script type='text/javascript' src='http://www.oranews.tv/wp-includes/js/underscore.min.js?ver=1.6.0'></script>
+<script type='text/javascript' src='http://www.oranews.tv/wp-includes/js/backbone.min.js?ver=1.1.2'></script>
+<script type='text/javascript' src='http://s1.wp.com/wp-content/js/mustache.js?ver=2.9.3-201421'></script>
+<script type='text/javascript' src='http://www.oranews.tv/wp-content/plugins/jetpack/_inc/spin.js?ver=1.3'></script>
+<script type='text/javascript' src='http://www.oranews.tv/wp-content/plugins/jetpack/_inc/jquery.spin.js?ver=1.3'></script>
+<script type='text/javascript' src='http://s1.wp.com/wp-content/mu-plugins/notes/notes-common-v2.js?ver=2.9.3-201421'></script>
+<script type='text/javascript' src='http://s0.wp.com/wp-content/mu-plugins/notes/admin-bar-v2.js?ver=2.9.3-201421'></script>
 <!-- Start Alexa Certify Javascript -->
 <script type="text/javascript">
 _atrk_opts = { atrk_acct:"iyaKi1a4ZP00WV", domain:"oranews.tv",dynamic: true};
@@ -1431,6 +1486,61 @@ _atrk_opts = { atrk_acct:"iyaKi1a4ZP00WV", domain:"oranews.tv",dynamic: true};
 	if ( typeof addLoadEvent != 'undefined' ) addLoadEvent(load_cmc);
 	else load_cmc();
 	</script>	<script type="text/javascript">
+		(function() {
+			var request, b = document.body, c = 'className', cs = 'customize-support', rcs = new RegExp('(^|\\s+)(no-)?'+cs+'(\\s+|$)');
+
+			request = true;
+
+			b[c] = b[c].replace( rcs, ' ' );
+			b[c] += ( window.postMessage && request ? ' ' : ' no-' ) + cs;
+		}());
+	</script>
+			<div id="wpadminbar" class="nojq nojs" role="navigation">
+			<a class="screen-reader-shortcut" href="#wp-toolbar" tabindex="1">Skip to toolbar</a>
+			<div class="quicklinks" id="wp-toolbar" role="navigation" aria-label="Top navigation toolbar." tabindex="0">
+				<ul id="wp-admin-bar-root-default" class="ab-top-menu">
+		<li id="wp-admin-bar-wp-logo" class="menupop"><a class="ab-item"  aria-haspopup="true" href="http://www.oranews.tv/wp-admin/about.php" title="About WordPress"><span class="ab-icon"></span></a><div class="ab-sub-wrapper"><ul id="wp-admin-bar-wp-logo-default" class="ab-submenu">
+		<li id="wp-admin-bar-about"><a class="ab-item"  href="http://www.oranews.tv/wp-admin/about.php">About WordPress</a>		</li></ul><ul id="wp-admin-bar-wp-logo-external" class="ab-sub-secondary ab-submenu">
+		<li id="wp-admin-bar-wporg"><a class="ab-item"  href="https://wordpress.org/">WordPress.org</a>		</li>
+		<li id="wp-admin-bar-documentation"><a class="ab-item"  href="http://codex.wordpress.org/">Documentation</a>		</li>
+		<li id="wp-admin-bar-support-forums"><a class="ab-item"  href="https://wordpress.org/support/">Support Forums</a>		</li>
+		<li id="wp-admin-bar-feedback"><a class="ab-item"  href="https://wordpress.org/support/forum/requests-and-feedback">Feedback</a>		</li></ul></div>		</li>
+		<li id="wp-admin-bar-site-name" class="menupop"><a class="ab-item"  aria-haspopup="true" href="http://www.oranews.tv/wp-admin/">Ora News</a><div class="ab-sub-wrapper"><ul id="wp-admin-bar-site-name-default" class="ab-submenu">
+		<li id="wp-admin-bar-dashboard"><a class="ab-item"  href="http://www.oranews.tv/wp-admin/">Dashboard</a>		</li></ul><ul id="wp-admin-bar-appearance" class="ab-submenu">
+		<li id="wp-admin-bar-themes"><a class="ab-item"  href="http://www.oranews.tv/wp-admin/themes.php">Themes</a>		</li>
+		<li id="wp-admin-bar-customize" class="hide-if-no-customize"><a class="ab-item"  href="http://www.oranews.tv/wp-admin/customize.php?url=http%3A%2F%2Fwww.oranews.tv%2F">Customize</a>		</li>
+		<li id="wp-admin-bar-widgets"><a class="ab-item"  href="http://www.oranews.tv/wp-admin/widgets.php">Widgets</a>		</li>
+		<li id="wp-admin-bar-menus"><a class="ab-item"  href="http://www.oranews.tv/wp-admin/nav-menus.php">Menus</a>		</li>
+		<li id="wp-admin-bar-background"><a class="ab-item"  href="http://www.oranews.tv/wp-admin/themes.php?page=custom-background">Background</a>		</li></ul></div>		</li>
+		<li id="wp-admin-bar-updates"><a class="ab-item"  href="http://www.oranews.tv/wp-admin/update-core.php" title="3 Plugin Updates"><span class="ab-icon"></span><span class="ab-label">3</span><span class="screen-reader-text">3 Plugin Updatesspan></a>		</li>
+		<li id="wp-admin-bar-comments"><a class="ab-item"  href="http://www.oranews.tv/wp-admin/edit-comments.php" title="0 comments awaiting moderation"><span class="ab-icon"></span><span id="ab-awaiting-mod" class="ab-label awaiting-mod pending-count count-0">0</span></a>		</li>
+		<li id="wp-admin-bar-new-content" class="menupop"><a class="ab-item"  aria-haspopup="true" href="http://www.oranews.tv/wp-admin/post-new.php" title="Add New"><span class="ab-icon"></span><span class="ab-label">New</span></a><div class="ab-sub-wrapper"><ul id="wp-admin-bar-new-content-default" class="ab-submenu">
+		<li id="wp-admin-bar-new-post"><a class="ab-item"  href="http://www.oranews.tv/wp-admin/post-new.php">Post</a>		</li>
+		<li id="wp-admin-bar-new-media"><a class="ab-item"  href="http://www.oranews.tv/wp-admin/media-new.php">Media</a>		</li>
+		<li id="wp-admin-bar-new-link"><a class="ab-item"  href="http://www.oranews.tv/wp-admin/link-add.php">Link</a>		</li>
+		<li id="wp-admin-bar-new-page"><a class="ab-item"  href="http://www.oranews.tv/wp-admin/post-new.php?post_type=page">Page</a>		</li>
+		<li id="wp-admin-bar-new-videogaleri"><a class="ab-item"  href="http://www.oranews.tv/wp-admin/post-new.php?post_type=videogaleri">Videogaleri</a>		</li>
+		<li id="wp-admin-bar-new-fotogaleri"><a class="ab-item"  href="http://www.oranews.tv/wp-admin/post-new.php?post_type=fotogaleri">Fotogaleri</a>		</li>
+		<li id="wp-admin-bar-new-emision"><a class="ab-item"  href="http://www.oranews.tv/wp-admin/post-new.php?post_type=emision">Emisionet</a>		</li>
+		<li id="wp-admin-bar-new-puntate"><a class="ab-item"  href="http://www.oranews.tv/wp-admin/post-new.php?post_type=puntate">Puntatat</a>		</li>
+		<li id="wp-admin-bar-new-moti"><a class="ab-item"  href="http://www.oranews.tv/wp-admin/post-new.php?post_type=moti">Moti</a>		</li>
+		<li id="wp-admin-bar-new-analize"><a class="ab-item"  href="http://www.oranews.tv/wp-admin/post-new.php?post_type=analize">Analiza</a>		</li>
+		<li id="wp-admin-bar-new-breaking_news"><a class="ab-item"  href="http://www.oranews.tv/wp-admin/post-new.php?post_type=breaking_news">Breaking News</a>		</li>
+		<li id="wp-admin-bar-new-user"><a class="ab-item"  href="http://www.oranews.tv/wp-admin/user-new.php">User</a>		</li></ul></div>		</li>
+		<li id="wp-admin-bar-stats"><a class="ab-item"  href="http://www.oranews.tv/wp-admin/admin.php?page=stats"><div><script type='text/javascript'>var src;if(typeof(window.devicePixelRatio)=='undefined'||window.devicePixelRatio<2){src='http://www.oranews.tv/wp-admin/admin.php?page=stats&amp;noheader&amp;proxy&amp;chart=admin-bar-hours-scale';}else{src='http://www.oranews.tv/wp-admin/admin.php?page=stats&amp;noheader&amp;proxy&amp;chart=admin-bar-hours-scale-2x';}document.write('<img src=\''+src+'\' alt=\'Stats\' title=\'Views over 48 hours. Click for more Site Stats.\' />');</script></div></a>		</li>
+		<li id="wp-admin-bar-delete-cache"><a class="ab-item"  href="http://www.oranews.tv/wp-admin/index.php?action=delcachepage&#038;path=%2F&#038;_wpnonce=cbf591a939" title="Delete cache of the current page">Delete Cache</a>		</li></ul><ul id="wp-admin-bar-top-secondary" class="ab-top-secondary ab-top-menu">
+		<li id="wp-admin-bar-search" class="admin-bar-search"><div class="ab-item ab-empty-item" tabindex="-1"><form action="http://www.oranews.tv/" method="get" id="adminbarsearch"><input class="adminbar-input" name="s" id="adminbar-search" type="text" value="" maxlength="150" /><input type="submit" class="adminbar-button" value="Search"/></form></div>		</li>
+		<li id="wp-admin-bar-my-account" class="menupop"><a class="ab-item"  aria-haspopup="true" href="http://www.oranews.tv/wp-admin/profile.php" title="My Account">Howdy, Ora News</a><div class="ab-sub-wrapper"><ul id="wp-admin-bar-user-actions" class="ab-submenu">
+		<li id="wp-admin-bar-user-info"><a class="ab-item" tabindex="-1" href="http://www.oranews.tv/wp-admin/profile.php"><span class='display-name'>Ora News</span><span class='username'>klevi_maska</span></a>		</li>
+		<li id="wp-admin-bar-edit-profile"><a class="ab-item"  href="http://www.oranews.tv/wp-admin/profile.php">Edit My Profile</a>		</li>
+		<li id="wp-admin-bar-logout"><a class="ab-item"  href="http://www.oranews.tv/wp-login.php?action=logout&#038;_wpnonce=2747a059fd">Log Out</a>		</li></ul></div>		</li>
+		<li id="wp-admin-bar-notes" class="menupop"><div class="ab-item ab-empty-item" ><span id="wpnt-notes-unread-count" class="wpnt-loading wpn-read">
+					<span class="noticon noticon-notification"></span>
+					</span></div><div id="wpnt-notes-panel" style="display:none" lang="en_US" dir="ltr"><div class="wpnt-notes-panel-header"><span class="wpnt-notes-header">Notifications</span><span class="wpnt-notes-panel-link"></span></div></div>		</li></ul>			</div>
+						<a class="screen-reader-shortcut" href="http://www.oranews.tv/wp-login.php?action=logout&#038;_wpnonce=2747a059fd">Log Out</a>
+					</div>
+
+			<script type="text/javascript">
 
   var _gaq = _gaq || [];
   _gaq.push(['_setAccount', 'UA-46208535-1']);
@@ -1446,7 +1556,5 @@ _atrk_opts = { atrk_acct:"iyaKi1a4ZP00WV", domain:"oranews.tv",dynamic: true};
 </body>
 </html>
 
-<!-- Dynamic page generated in 1.341 seconds. -->
-<!-- Cached page generated by WP-Super-Cache on 2014-05-22 21:51:07 -->
-
-<!-- Compression = gzip -->
+<!-- Dynamic page generated in 1.248 seconds. -->
+<!-- Page not cached by WP Super Cache. Check your settings page. Not caching requests by known users. (See Advanced Settings page) -->
